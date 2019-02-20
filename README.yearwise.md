@@ -21,38 +21,6 @@ Last update: Feb.20 2019
 
 ## 2. Datasets
 
-#### [`COCO-Text (Computer Vision Group, Cornell)`](http://vision.cornell.edu/se3/coco-text/)   `2016`
-
-63,686 images, 173,589 text instances, 3 fine-grained text attributes.
-
-Task: text location and recognition
-
-[`download`](https://github.com/andreasveit/coco-text)
-
-#### [`Synthetic Word Dataset (Oxford, VGG)`](http://www.robots.ox.ac.uk/~vgg/data/text/)   `2014`
-
-9 million images covering 90k English words
-
-Task: text recognition, segmantation
-
-[`download`](http://www.robots.ox.ac.uk/~vgg/data/text/mjsynth.tar.gz)
-
-#### [`StanfordSynth(Stanford, AI Group)`](http://cs.stanford.edu/people/twangcat/#research)   `2012`
-
-Small single-character images of 62 characters (0-9, a-z, A-Z)
-
-Task: text recognition
-
-[`download`](http://cs.stanford.edu/people/twangcat/ICPR2012_code/syntheticData.tar)
-
-#### [`MSRA Text Detection 500 Database (MSRA-TD500)`](http://www.iapr-tc11.org/mediawiki/index.php/MSRA_Text_Detection_500_Database_(MSRA-TD500))   `2012`
-
-500 natural images(resolutions of the images vary from 1296x864 to 1920x1280)
-
-Chinese, English or mixture of both
-
-Task: text detection
-
 #### `ICDAR Benchmark Datasets`
 
 |Dataset| Description | Competition Paper |
