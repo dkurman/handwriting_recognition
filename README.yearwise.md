@@ -44,7 +44,9 @@ Last update: Feb.20 2019
 |[Super Online Transfer Tools (Chinese)](http://www.wdku.net/)| API，free |
 
 ## 4. Blogs
-
+- [Recurrent Neural Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [An Intuitive Explanation of Connectionist Temporal Classification](https://towardsdatascience.com/intuitively-understanding-connectionist-temporal-classification-3797e43a86c)
+- [Sequence Modeling With CTC](https://distill.pub/2017/ctc/)
 - [Handwritten numbers detection and recognition](https://medium.com/@o.kroeger/recognize-your-handwritten-numbers-3f007cbe46ff#.8hg7vl6mo)
 - [Applying OCR Technology for Receipt Recognition](http://rnd.azoft.com/applying-ocr-technology-receipt-recognition/)
 - [Convolutional Neural Networks for Object(Car License) Detection](http://rnd.azoft.com/convolutional-neural-networks-object-detection/)
