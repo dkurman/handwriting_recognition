@@ -6,19 +6,6 @@
 
 *[Overview] Summary, overview, survey papers*
 
-## Tasks
-0. Data collection and augmentation
-	- envelops
-	- handwritings
-1. Detect the region of the envelop
-2. Detect the regions of the sender and the receiver
-3. Segment these regions to lines
-4. Segment the lines to words
-5. Text recognition
-6. Recognized text enchancement 
-  - compare with the words in db 
-  - metric: Levenshtein distance
-
 Last update: Feb.20 2019
 
 ## 1. Papers & Code
@@ -27,8 +14,6 @@ Last update: Feb.20 2019
 
 #### 2015
 - [2015-PAMI][TR] An End-to-End Trainable Neural Network for Image-based SequenceRecognition and Its Application to Scene Text Recognition [`paper`](https://arxiv.org/abs/1507.05717) [`implementation`](https://github.com/qjadud1994/CRNN-Keras)
-
-#### 2014
 
 ## 2. Datasets
 
