@@ -28,28 +28,6 @@ Last update: Feb.20 2019
 
 ## 2. Datasets
 
-#### [`SCUT-CTW1500`](https://github.com/Yuliang-Liu/Curve-Text-Detector) `2018`
-
-Task: text location(with different style) and recognition
-
-[`download`](https://github.com/Yuliang-Liu/Curve-Text-Detector)
-
-#### [`Total Text Dataset`](https://github.com/cs-chan/Total-Text-Dataset) `2017`
-
-1,555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind
-
-Task: text location(with different style) and recognition
-
-[`download`](https://github.com/cs-chan/Total-Text-Dataset)
-
-#### [`PowerPoint Text Detection and Recognition Dataset`](https://gitlab.com/rex-yue-wu/ISI-PPT-Dataset) `2017`
-
-21,384 images, 21,384+ text instances
-
-Task: text location and recognition
-
-[`download`](https://gitlab.com/rex-yue-wu/ISI-PPT-Dataset)
-
 #### [`COCO-Text (Computer Vision Group, Cornell)`](http://vision.cornell.edu/se3/coco-text/)   `2016`
 
 63,686 images, 173,589 text instances, 3 fine-grained text attributes.
@@ -66,24 +44,6 @@ Task: text recognition, segmantation
 
 [`download`](http://www.robots.ox.ac.uk/~vgg/data/text/mjsynth.tar.gz)
 
-#### [`The Street View House Number Dataset (SVHN)`](http://ufldl.stanford.edu/housenumbers)   `2012`
-
-Real-world street view number image with its position and classification tags.
-
-Task: number location detection, text recognition
-
-[`download`](http://ufldl.stanford.edu/housenumbers)
-
-#### [`IIIT 5K-Words`](http://cvit.iiit.ac.in/projects/SceneTextUnderstanding/IIIT5K.html)   `2012`
-
-5000 images from Scene Texts and born-digital (2k training and 3k testing images)
-
-Each image is a cropped word image of scene text with case-insensitive labels
-
-Task: text recognition
-
-[`download`](http://cvit.iiit.ac.in/projects/SceneTextUnderstanding/IIIT5K-Word_V3.0.tar.gz)
-
 #### [`StanfordSynth(Stanford, AI Group)`](http://cs.stanford.edu/people/twangcat/#research)   `2012`
 
 Small single-character images of 62 characters (0-9, a-z, A-Z)
@@ -99,30 +59,6 @@ Task: text recognition
 Chinese, English or mixture of both
 
 Task: text detection
-
-#### [`Street View Text (SVT)`](http://tc11.cvc.uab.es/datasets/SVT_1)   `2010`
-
-350 high resolution images (average size 1260 × 860) (100 images for training and 250 images for testing)
-
-Only word level bounding boxes are provided with case-insensitive labels
-
-Task: text location
-
-#### [`KAIST Scene_Text Database`](http://www.iapr-tc11.org/mediawiki/index.php/KAIST_Scene_Text_Database)   `2010`
-
-3000 images of indoor and outdoor scenes containing text
-
-Korean, English (Number), and Mixed (Korean + English + Number)
-
-Task: text location, segmantation and recognition
-
-#### [`Chars74k`](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/)   `2009`
-
-Over 74K images from natural images, as well as a set of synthetically generated characters
-
-Small single-character images of 62 characters (0-9, a-z, A-Z)
-
-Task: text recognition
 
 #### `ICDAR Benchmark Datasets`
 
@@ -149,14 +85,6 @@ Task: text recognition
 
 ## 4. Blogs
 
-- [Scene Text Detection with OpenCV 3](http://docs.opencv.org/3.0-beta/modules/text/doc/erfilter.html)
 - [Handwritten numbers detection and recognition](https://medium.com/@o.kroeger/recognize-your-handwritten-numbers-3f007cbe46ff#.8hg7vl6mo)
 - [Applying OCR Technology for Receipt Recognition](http://rnd.azoft.com/applying-ocr-technology-receipt-recognition/)
 - [Convolutional Neural Networks for Object(Car License) Detection](http://rnd.azoft.com/convolutional-neural-networks-object-detection/)
-- [Extracting text from an image using Ocropus](http://www.danvk.org/2015/01/09/extracting-text-from-an-image-using-ocropus.html)
-- [Number plate recognition with Tensorflow](http://matthewearl.github.io/2016/05/06/cnn-anpr/) [`github`](https://github.com/matthewearl/deep-anpr)
-- [Using deep learning to break a Captcha system](https://deepmlblog.wordpress.com/2016/01/03/how-to-break-a-captcha-system/) [`report`](http://web.stanford.edu/~jurafsky/burszstein_2010_captcha.pdf) [`github`](https://github.com/arunpatala/captcha)
-- [Breaking reddit captcha with 96% accuracy](https://deepmlblog.wordpress.com/2016/01/05/breaking-reddit-captcha-with-96-accuracy/) [`github`](https://github.com/arunpatala/reddit.captcha)
-- [文字检测与识别资源-1](http://blog.csdn.net/peaceinmind/article/details/51387367)
-- [文字的检测与识别资源-2](http://blog.csdn.net/u010183397/article/details/56497303?locationNum=12&fps=1)
-- Scene Text Recognition in iOS [`blog`](https://medium.com/@khurram.pak522/scene-text-recognition-in-ios-11-2d0df8412151) [`github`](https://github.com/khurram18/SceneTextRecognitioniOS)
