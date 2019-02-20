@@ -8,7 +8,11 @@
 
 Last update: Feb.20 2019
 
+## 1. Books
+- [2018] Deep Learning with Python, F. Chollet [`book`](http://faculty.neu.edu.cn/yury/AAI/Textbook/Deep%20Learning%20with%20Python.pdf)
+
 ## 1. Papers & Code
+
 #### 2017
 - [2017-CVPR] EAST: An Efficient and Accurate Scene Text Detector [`paper`](https://arxiv.org/abs/1704.03155) [`implementation`](https://github.com/argman/EAST) [`example`](https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/)
 
@@ -70,7 +74,6 @@ Task: text detection
 |[New OCR](http://www.newocr.com/)| API，free |
 |[ABBYY FineReader Online](https://finereaderonline.com)| No API，Not free |
 |[Super Online Transfer Tools (Chinese)](http://www.wdku.net/)| API，free |
-|[Online Chinese Recognition](http://chongdata.com/ocr/)| API，free |
 
 ## 4. Blogs
 
