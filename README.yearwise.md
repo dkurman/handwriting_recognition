@@ -14,7 +14,7 @@ Last update: Feb.20 2019
 ## 1. Papers & Code
 
 #### 2017
-- [2017-CVPR] EAST: An Efficient and Accurate Scene Text Detector [`paper`](https://arxiv.org/abs/1704.03155) [`implementation`](https://github.com/argman/EAST) [`example`](https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/)
+- [2017-CVPR] [TD] EAST: An Efficient and Accurate Scene Text Detector [`paper`](https://arxiv.org/abs/1704.03155) [`implementation`](https://github.com/argman/EAST) [`example`](https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/)
 
 #### 2015
 - [2015-PAMI] [TR] An End-to-End Trainable Neural Network for Image-based SequenceRecognition and Its Application to Scene Text Recognition [`paper`](https://arxiv.org/abs/1507.05717) [`implementation`](https://github.com/qjadud1994/CRNN-Keras)
