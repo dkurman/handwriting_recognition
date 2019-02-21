@@ -47,6 +47,8 @@ Last update: Feb.20 2019
 - [Recurrent Neural Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [An Intuitive Explanation of Connectionist Temporal Classification](https://towardsdatascience.com/intuitively-understanding-connectionist-temporal-classification-3797e43a86c)
 - [Sequence Modeling With CTC](https://distill.pub/2017/ctc/)
+- [Keras github](https://github.com/keras-team/keras)
+- [Keras image_ocr](https://github.com/keras-team/keras/blob/master/examples/image_ocr.py)
 - [Handwritten numbers detection and recognition](https://medium.com/@o.kroeger/recognize-your-handwritten-numbers-3f007cbe46ff#.8hg7vl6mo)
 - [Applying OCR Technology for Receipt Recognition](http://rnd.azoft.com/applying-ocr-technology-receipt-recognition/)
 - [Convolutional Neural Networks for Object(Car License) Detection](http://rnd.azoft.com/convolutional-neural-networks-object-detection/)
