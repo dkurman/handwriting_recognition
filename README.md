@@ -6,8 +6,6 @@
 
 *[Overview] Summary, overview, survey papers*
 
-Last update: Feb.20 2019
-
 ## 1. Books
 - [2018] Deep Learning with Python, F. Chollet [`book`](http://faculty.neu.edu.cn/yury/AAI/Textbook/Deep%20Learning%20with%20Python.pdf)
 
