@@ -25,13 +25,13 @@ Last update: Feb.20 2019
 
 |Dataset| Description | Competition Paper |
 |---|---|----|
-|[CEDAR]( http://www.cedar.buffalo.edu/Databases/ ) | handwritten words, ZIP Codes, Digits and Alphabetic characters | `paper` [!link](https://cedar.buffalo.edu/~srihari/papers/JFS-2002.pdf)|
+|[CEDAR]( http://www.cedar.buffalo.edu/Databases/ ) | handwritten words, ZIP Codes, Digits and Alphabetic characters | `paper` [![link](https://cedar.buffalo.edu/~srihari/papers/JFS-2002.pdf)|
 
 #### IAM Handwriting Database  
 
 |Dataset| Description | Competition Paper |
 |---|---|----|
-|[IAM](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database) | forms of handwritten English text | `paper` [!link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.33.5886&rep=rep1&type=pdf)|
+|[IAM](http://www.fki.inf.unibe.ch/databases/iam-handwriting-database) | forms of handwritten English text | `paper` [![link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.33.5886&rep=rep1&type=pdf)|
 
 #### `ICDAR Benchmark Datasets`
 
