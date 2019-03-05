@@ -23,6 +23,13 @@
 
 ## 2. Datasets
 
+#### NIST Special Database 19 
+
+|Dataset| Description | Competition Paper |
+|---|---|----|
+|[NIST]( https://www.nist.gov/srd/nist-special-database-19 ) | 810,000 character images isolated from their forms | `paper` [![link](https://www.lds.org/bc/content/shared/content/images/gospel-library/manual/10735/paper-icon_1150845_tmb.jpg)](https://s3.amazonaws.com/nist-srd/SD19/1stEditionUserGuide.pdf)|
+|[EMNIST]( https://www.nist.gov/itl/iad/image-group/emnist-dataset ) | handwritten character digits derived from the NIST Special Database 19  and converted to a 28x28 pixel image format | `paper` [![link](https://www.lds.org/bc/content/shared/content/images/gospel-library/manual/10735/paper-icon_1150845_tmb.jpg)](https://arxiv.org/pdf/1702.05373v1.pdf)|
+
 #### CEDAR
 
 |Dataset| Description | Competition Paper |
