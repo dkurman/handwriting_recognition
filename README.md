@@ -15,6 +15,8 @@
 - [2018] FAQ: Build a Handwritten Text Recognition System using TensorFlow (Harald Scheidl)
 [`blog`](https://towardsdatascience.com/faq-build-a-handwritten-text-recognition-system-using-tensorflow-27648fb18519)
 
+- [2018][Survey] Scene Text Detection and Recognition:The Deep Learning Era [paper](https://arxiv.org/pdf/1811.04256.pdf) [github](https://github.com/Jyouhou/SceneTextPapers)
+
 #### 2017
 - [2017-CVPR] [TD] EAST: An Efficient and Accurate Scene Text Detector [`paper`](https://arxiv.org/abs/1704.03155) [`implementation`](https://github.com/argman/EAST) [`example`](https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/)
 
