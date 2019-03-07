@@ -6,15 +6,13 @@
 
 *[Overview] Summary, overview, survey papers*
 
-## 1. Books
+## Books
 - [2018] Deep Learning with Python, F. Chollet [`book`](http://faculty.neu.edu.cn/yury/AAI/Textbook/Deep%20Learning%20with%20Python.pdf)
+- [2016] Deep Learning, I. Goodfellow, Y. Bengio, and A. Courville [`book`](http://www.deeplearningbook.org/)
 
 ## 1. Papers & Code
 
 #### 2018
-- [2018] FAQ: Build a Handwritten Text Recognition System using TensorFlow (Harald Scheidl)
-[`blog`](https://towardsdatascience.com/faq-build-a-handwritten-text-recognition-system-using-tensorflow-27648fb18519)
-
 - [2018][Survey] Scene Text Detection and Recognition:The Deep Learning Era [`paper`](https://arxiv.org/pdf/1811.04256.pdf)  [`github`](https://github.com/Jyouhou/SceneTextPapers)
 
 #### 2017
@@ -67,6 +65,7 @@
 |[Super Online Transfer Tools (Chinese)](http://www.wdku.net/)| API，free |
 
 ## 4. Blogs
+- [FAQ: Build a Handwritten Text Recognition System using TensorFlow (Harald Scheidl)](https://towardsdatascience.com/faq-build-a-handwritten-text-recognition-system-using-tensorflow-27648fb18519)
 - [Recurrent Neural Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [An Intuitive Explanation of Connectionist Temporal Classification](https://towardsdatascience.com/intuitively-understanding-connectionist-temporal-classification-3797e43a86c)
 - [Sequence Modeling With CTC](https://distill.pub/2017/ctc/)
