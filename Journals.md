@@ -2,7 +2,7 @@
 
 ## 1. Applied Artificial Intelligence [link](https://www.tandfonline.com/toc/uaai20/current)
 - Issues: 14 issues per year
-- Requirements:
+- Requirements: https://authorservices.taylorandfrancis.com/tf_quick_guide/
 - Deadlines:
 - Fee:
 
