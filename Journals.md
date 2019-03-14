@@ -1,7 +1,7 @@
 # List of Journals
 
 ## 1. Applied Artificial Intelligence [link](https://www.tandfonline.com/toc/uaai20/current)
-- Issues:
+- Issues: 14 issues per year
 - Requirements:
 - Deadlines:
 - Fee:
