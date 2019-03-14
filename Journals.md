@@ -31,7 +31,7 @@
 - Fee:
 
 ## 6. Applied Mathematics and Infromation Sciences [link](http://www.naturalspublishing.com/show.asp?JorID=1&pgid=0)
-- Issues:
+- Issues: 6 issues annually
 - Requirements:
 - Deadlines:
 - Fee:
