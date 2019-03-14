@@ -7,7 +7,7 @@
 - Fee:
 
 ## 2. Statistics, Optimzation & Information Computing [link](http://www.iapress.org/index.php/soic)
-- Issues:
+- Issues: 4 times a year
 - Requirements:
 - Deadlines:
 - Fee:
