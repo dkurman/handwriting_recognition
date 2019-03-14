@@ -13,7 +13,7 @@
 - Fee:
 
 ## 3. Journal of Artificial Intelligence [link](https://www.jair.org/index.php/jair)
-- Issues:
+- Issues: 3 times a year
 - Requirements:
 - Deadlines:
 - Fee:
