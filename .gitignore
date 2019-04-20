@@ -1,2 +1,5 @@
 *.pyc
 VENV/
+data/
+.vscode/
+*.ipynb_checkpoints/
