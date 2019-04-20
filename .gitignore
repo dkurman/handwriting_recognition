@@ -1,2 +1,7 @@
 *.pyc
 VENV/
+src/data_augmentation/v1_Maksat/test/
+src/data_augmentation/v1_Maksat/train/
+src/data_augmentation/v1_Maksat/input_images/
+src/data_augmentation/v1_Maksat/generated_images/
+src/data_augmentation/v1_Maksat/generated_images/
