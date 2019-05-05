@@ -7,24 +7,21 @@ import os
 MIN_CONTOUR_AREA = 10
 
 def basic_preprocessing(img):
+    assert(len(img.shape)<3)
     blur = cv2.GaussianBlur(img, (3, 3), 0)
-    gray = cv2.cvtColor(blur,cv2.COLOR_BGR2GRAY)
-    edges = cv2.Canny(gray,100,200)
-
-    if False:
-        cv2.imshow('Edges', edges)
-        cv2.waitKey(0)
+    edges = cv2.Canny(blur,100,200)
 
     return edges
 
-def find_bbox(imgray, thresh_area=10):
+def find_bbox(img, thresh_area=10):
     """
     The method expects a gray scale image
     It outputs the bbox = {x,y,w,h}
     """
-    h,w = imgray.shape
-    im2, contours, hierarchy = cv2.findContours(imgray, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-    print('Total # of contours: ', len(contours))
+    assert(len(img.shape)<3)
+    bbox = None
+    h,w = img.shape
+    im2, contours, hierarchy = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     
     # loop through all contours
     feasible_contours = []
@@ -34,8 +31,8 @@ def find_bbox(imgray, thresh_area=10):
         # less than 75% of the image area
         if (area>MIN_CONTOUR_AREA and area<(0.75*h*w)):
             feasible_contours.extend(cnt)
-
-    bbox = cv2.boundingRect(np.array(feasible_contours))
+    if (len(feasible_contours)):
+        bbox = cv2.boundingRect(np.array(feasible_contours))
     return bbox
 
 def show_contours(img, contours):
