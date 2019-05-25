@@ -1,13 +1,13 @@
 *.pyc
 VENV/
-<<<<<<< HEAD
 data/
 .vscode/
 *.ipynb_checkpoints/
-=======
 src/data_augmentation/v1_Maksat/test/
 src/data_augmentation/v1_Maksat/train/
 src/data_augmentation/v1_Maksat/input_images/
 src/data_augmentation/v1_Maksat/generated_images/
 src/data_augmentation/v1_Maksat/generated_images/
->>>>>>> 16eaeab6a4a4b115a930ea59fe0205114cd21e36
+src/text_segmentation/darkflow_recognition_tool/miniconda3/
+src/text_segmentation/darkflow_recognition_tool/darkflow/
+src/text_segmentation/darkflow_recognition_tool/model/yolo-post_3800.weights
