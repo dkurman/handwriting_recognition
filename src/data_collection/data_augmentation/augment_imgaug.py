@@ -53,11 +53,11 @@ def augment(batch):
 
     return images_aug
 
-def save_batch(output_dir, base_file_name, batch):
+def save_batch(output_dir, batch, iter_num):
     if not os.path.exists(directory):
         os.makedirs(directory)
     for i, img in enumerate(batch):
-        cv2.imwrite(directory + base_file_name[:-4] + str(i) + base_file_name[-4:], img)
+        cv2.imwrite(directory + str(iter_num+i).zfill(5) + ".jpg", img)
 
 def show_batch(batch):
     for img in batch:
@@ -66,7 +66,7 @@ def show_batch(batch):
 
 if __name__ == "__main__":
     INPUT_IMG_DIR = "../../../data/words_in_dirs"
-    OUTPUT_IMG_DIR = "../../../data/imgaug_images"
+    OUTPUT_IMG_DIR = "../../../data/imgaug_imgs"
     
     aug_number = 10
     classes = 42
@@ -80,11 +80,11 @@ if __name__ == "__main__":
             img = cv2.imread(full_path,cv2.IMREAD_GRAYSCALE)
             img = cv2.resize(img, None, fx=0.5, fy=0.5,interpolation=cv2.INTER_CUBIC)
             img = preproc_img(img)
-            batch = compile_batch(img,aug_number)
+            batch = compile_batch(img, aug_number)
             
             batch_aug = augment(batch)
             if False:
                 show_batch(batch_aug)
             # save 
             directory = OUTPUT_IMG_DIR+"/"+str(c)+"/"
-            save_batch(directory, fn, batch_aug)
+            save_batch(directory, batch_aug, j*aug_number)
