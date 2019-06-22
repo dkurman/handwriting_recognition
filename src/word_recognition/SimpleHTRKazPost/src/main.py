@@ -15,7 +15,7 @@ class FilePaths:
 	fnCharList = '../model/charList.txt'
 	fnAccuracy = '../model/accuracy.txt'
 	fnTrain = '../data/'
-	fnInfer = '../data/test.jpg'
+	fnInfer = '../data/1.png'
 	fnCorpus = '../data/corpus.txt'
 
 
@@ -91,6 +91,7 @@ def validate(model, loader):
 def infer(model, fnImg):
 	"recognize text in image provided by file path"
 	img = preprocess(cv2.imread(fnImg, cv2.IMREAD_GRAYSCALE), Model.imgSize)
+	print(img.shape)
 	batch = Batch(None, [img])
 	(recognized, probability) = model.inferBatch(batch, True)
 	print('Recognized:', '"' + recognized[0] + '"')
