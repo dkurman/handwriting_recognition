@@ -7,7 +7,6 @@ import os
 MIN_CONTOUR_AREA = 10
 
 def basic_preprocessing(img):
-    print(img.shape)
     assert(len(img.shape)<3)
     blur = cv2.GaussianBlur(img, (3, 3), 0)
     edges = cv2.Canny(blur,100,200)

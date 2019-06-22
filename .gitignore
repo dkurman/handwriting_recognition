@@ -1,4 +1,6 @@
 *.pyc
+*.jpg
+*.hdf5
 VENV/
 data/
 .vscode/
