@@ -21,26 +21,7 @@ def index():
 @app.route('/uploads', methods=['GET', 'POST'])
 def upload():
 
-    # set session for image results
-    if "file_urls" not in session:
-        session['file_urls'] = []
-    # list to hold our uploaded image urls
-    file_urls = session['file_urls']
-    # handle image upload from Dropzone
     if request.method == 'POST':
-        file_obj = request.files
-        for f in file_obj:
-            file = request.files.get(f)
-            
-            # save the file with to our photos folder
-            filename = photos.save(
-                file,
-                name=file.filename    
-            )
-            # append image urls
-            file_urls.append(photos.url(filename))
-            
-        session['file_urls'] = file_urls
-        return "uploading..."
-    # return dropzone template on GET request    
-    return render_template('index.html')
+        for f in request.files.getlist('file'):
+            f.save(os.path.join(app.config['UPLOADED_PATH'], f.filename))
+    return redirect(url_for('index'))

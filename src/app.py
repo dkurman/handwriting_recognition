@@ -1,6 +1,6 @@
-# from wrapper import recognize_words
+from wrapper import recognize_words
 
 
-# recognize_words('2.jpg')
+recognize_words('001.jpg')
 
-from backend import app
+# from backend import app

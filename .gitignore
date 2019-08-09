@@ -12,3 +12,4 @@ src/text_segmentation/darkflow_recognition_tool/miniconda3/
 src/text_segmentation/darkflow_recognition_tool/darkflow/
 src/text_segmentation/darkflow_recognition_tool/model/yolo-post_3800.weights
 src/text_segmentation/darkflow_recognition_tool/model/yolo-post_6900.weights
+src/output/
