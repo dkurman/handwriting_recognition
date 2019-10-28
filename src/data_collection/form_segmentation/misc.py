@@ -13,3 +13,8 @@ def get_file_names(path):
 		print ('Directory does not exist: ', path)
 	fnames.sort()
 	return fnames
+
+
+IMAGE_DIR = './imgs/'
+files = get_file_names(IMAGE_DIR)
+print(files)
