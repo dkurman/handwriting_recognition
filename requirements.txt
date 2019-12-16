@@ -1,6 +1,6 @@
 numpy==1.16.2
 matplotlib==3.0.3
 opencv-python==3.4.5.20
-tensorflow==1.13.1
+tensorflow==1.15.0
 jupyter
 imgaug==0.2.8
