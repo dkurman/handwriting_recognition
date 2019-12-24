@@ -1,5 +1,17 @@
 # Applied Artificial Intelligence
 
+## List of closely related papers
+
+2019, Volume 33, Issue 14, Mobile Robot Navigation Using an Object Recognition Software with RGBD Images and the YOLO Algorithm
+2017, Volume 31, Issue 3, Exploiting the Use of Convolutional Neural Networks for Localization in Indoor Environments
+2017, Volume 31, Issue 3, Improved Language Models for Word Prediction and Completion with Application to Hebrew
+2017, Volume 31, Issue 4, A Novel Word-Spotting Method for Handwritten Documents Using an Optimization-Based Classifier
+2016, Volume 30, Issue 3, Features Extraction for Detection of Blurred Image Regions
+2016, Volume 30, Issue 5, Identification of Fraktur and Latin Scripts in German Historical Documents Using Image Texture Analysis
+2016, Volume 30, Issue 10, Automatic Identification of Character Types from Film Dialogs
+2014, Volume 28, Issue 1, AUTOMATED TEXT SUMMARIZATION: AN OVERVIEW
+2014, Volume 28, Issue 9, Evaluation of Current Documents Image Denoising Techniques: A Comparative Study
+
 ## 2020 - Volume 34
 
 ### Issue 1
@@ -176,7 +188,8 @@
 
 1. A Novel Approach to Efficient Resource Allocation in NOMA Heterogeneous Networks: Multi-Criteria Green Resource Management
 2. Multi-scale features for heartbeat classification using directed acyclic graph CNN
-3. Recognition of the Gastric Molecular Image Based on Decision Tree and Discriminant Analysis Classifiers by using 4. Discrete Fourier Transform and Features
+3. Recognition of the Gastric Molecular Image Based on Decision Tree and Discriminant Analysis Classifiers by using 
+4. Discrete Fourier Transform and Features
 5. A New Hybrid Cuckoo Search Algorithm for Biclustering of Microarray Gene-Expression Data
 6. A Flexible Classifier Based on Optimum Curve Fitting Approach
 7. Performance evaluation of automated brain tumor detection systems with expert delineations and interobserver variability analysis in diseased patients on magnetic resonance imaging
